@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MemStatControl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/MemStatControl.res" /d "_DEBUG" "C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\02_Sample 소스\MemStatControl\MemStatControl.rc"" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP9D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/MemStatControl.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\02_Sample 소스\MemStatControl\MemStatControl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP9D.tmp" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP9E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MemStatControl.pdb" /debug /machine:I386 /out:"Debug/MemStatControl.exe" /pdbtype:sept 
+".\Debug\MemStatControl.obj"
+".\Debug\MemStatControl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP9E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+MemStatControl.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPA0.bat" with contents
+[
+@echo off
+copy Debug\MemStatControl.exe ..
+]
+Creating command line "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPA0.bat"
+
+        1개 파일이 복사되었습니다.
+
+
+
+<h3>Results</h3>
+MemStatControl.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

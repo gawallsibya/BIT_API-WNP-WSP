@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 예외처리 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP43.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/예외처리.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP43.tmp" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP44.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/예외처리.pdb" /debug /machine:I386 /out:"Debug/예외처리.exe" /pdbtype:sept 
+".\Debug\a.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP44.tmp"
+<h3>Output Window</h3>
+Compiling...
+a.cpp
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(42) : error C2065: 'mainCRTStartup' : undeclared identifier
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(48) : warning C4508: 'StartOfProcess' : function should return a value; 'void' return type assumed
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(50) : error C2556: 'unsigned long __cdecl UnhandledExceptionFilter(struct _EXCEPTION_POINTERS *)' : overloaded function differs only by return type from 'long __stdcall UnhandledExceptionFilter(struct _EXCEPTION_POINTERS *)'
+        c:\program files\microsoft visual studio\vc98\include\winbase.h(1744) : see declaration of 'UnhandledExceptionFilter'
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(50) : error C2373: 'UnhandledExceptionFilter' : redefinition; different type modifiers
+        c:\program files\microsoft visual studio\vc98\include\winbase.h(1744) : see declaration of 'UnhandledExceptionFilter'
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(50) : error C2491: 'UnhandledExceptionFilter' : definition of dllimport function not allowed
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(51) : error C2065: 'hwnd' : undeclared identifier
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(53) : error C2065: 'MBOKCANCEL' : undeclared identifier
+C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\01_예외처리\2_예외처리\a.cpp(56) : error C2181: illegal else without matching if
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+예외처리.exe - 7 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 반전모드효과 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP10A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/반전모드효과.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\woosong bit\바탕 화면\API\02_Sample\01_반전모드효과\a.cpp"
+"C:\Documents and Settings\woosong bit\바탕 화면\API\02_Sample\01_반전모드효과\b.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP10A.tmp" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP10B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/반전모드효과.pdb" /debug /machine:I386 /out:"Debug/반전모드효과.exe" /pdbtype:sept 
+".\Debug\a.obj"
+".\Debug\b.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP10B.tmp"
+<h3>Output Window</h3>
+Compiling...
+a.cpp
+b.cpp
+Linking...
+b.obj : error LNK2005: "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) already defined in a.obj
+b.obj : error LNK2005: _WinMain@16 already defined in a.obj
+Debug/반전모드효과.exe : fatal error LNK1169: one or more multiply defined symbols found
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+반전모드효과.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

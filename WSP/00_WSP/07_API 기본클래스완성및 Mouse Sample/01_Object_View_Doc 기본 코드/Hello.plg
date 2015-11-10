@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Hello - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/Hello.res" /d "_DEBUG" "C:\Documents and Settings\Administrator\바탕 화면\사본 - 2_최종 소스 코드\Hello.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Hello.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\바탕 화면\사본 - 2_최종 소스 코드\Cobject.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\사본 - 2_최종 소스 코드\Cview.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\사본 - 2_최종 소스 코드\Stdafx.cpp"
+"C:\Documents and Settings\Administrator\바탕 화면\사본 - 2_최종 소스 코드\CDocument.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HelloD.pdb" /debug /machine:I386 /out:"./HelloD.exe" /pdbtype:sept 
+".\Debug\Cobject.obj"
+".\Debug\Cview.obj"
+".\Debug\Stdafx.obj"
+".\Debug\Hello.res"
+".\Debug\CDocument.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Cobject.cpp
+Cview.cpp
+Stdafx.cpp
+CDocument.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Hello.bsc"  ".\Debug\Cobject.sbr" ".\Debug\Cview.sbr" ".\Debug\Stdafx.sbr" ".\Debug\CDocument.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HelloD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

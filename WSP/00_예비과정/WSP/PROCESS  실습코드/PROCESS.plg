@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PROCESS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/PROCESS.res" /d "_DEBUG" "\\61.81.99.31\SharedDocs\WSP\PROCESS  실습코드\PROCESS.RC"" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP185.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/PROCESS.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\61.81.99.31\SharedDocs\WSP\PROCESS  실습코드\fun.cpp"
+"\\61.81.99.31\SharedDocs\WSP\PROCESS  실습코드\ListView.cpp"
+"\\61.81.99.31\SharedDocs\WSP\PROCESS  실습코드\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP185.tmp" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP186.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/PROCESS.pdb" /debug /machine:I386 /out:"Debug/PROCESS.exe" /pdbtype:sept 
+".\Debug\fun.obj"
+".\Debug\ListView.obj"
+".\Debug\main.obj"
+".\Debug\PROCESS.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP186.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+fun.cpp
+ListView.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+PROCESS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

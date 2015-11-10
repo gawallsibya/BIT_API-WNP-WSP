@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CDCStep3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/CDCStep3.res" /d "_DEBUG" /d "_AFXDLL" "D:\003_고급반 강의 자료\01_MFC Internals\04_MFC소스코드 분석\1_API소스코드의 MFC 수정\3_DC\3_MFC\CDCStep3.rc"" 
+Creating temporary file "C:\DOCUME~1\최창민\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/CDCStep3.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\003_고급반 강의 자료\01_MFC Internals\04_MFC소스코드 분석\1_API소스코드의 MFC 수정\3_DC\3_MFC\CDCStep3.cpp"
+"D:\003_고급반 강의 자료\01_MFC Internals\04_MFC소스코드 분석\1_API소스코드의 MFC 수정\3_DC\3_MFC\CDCStep3Doc.cpp"
+"D:\003_고급반 강의 자료\01_MFC Internals\04_MFC소스코드 분석\1_API소스코드의 MFC 수정\3_DC\3_MFC\CDCStep3View.cpp"
+"D:\003_고급반 강의 자료\01_MFC Internals\04_MFC소스코드 분석\1_API소스코드의 MFC 수정\3_DC\3_MFC\MainFrm.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\최창민\LOCALS~1\Temp\RSP18.tmp"" 
+Creating temporary file "C:\DOCUME~1\최창민\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/CDCStep3.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\003_고급반 강의 자료\01_MFC Internals\04_MFC소스코드 분석\1_API소스코드의 MFC 수정\3_DC\3_MFC\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\최창민\LOCALS~1\Temp\RSP19.tmp"" 
+Creating temporary file "C:\DOCUME~1\최창민\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/CDCStep3D.pdb" /debug /machine:I386 /out:"./CDCStep3D.exe" /pdbtype:sept 
+".\Debug\CDCStep3.obj"
+".\Debug\CDCStep3Doc.obj"
+".\Debug\CDCStep3View.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\CDCStep3.res"
+]
+Creating command line "link.exe @"C:\DOCUME~1\최창민\LOCALS~1\Temp\RSP1A.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CDCStep3.cpp
+CDCStep3Doc.cpp
+CDCStep3View.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+LINK : LNK6004: ./CDCStep3D.exe not found or not built by the last incremental link; performing full link
+Creating command line "bscmake.exe /nologo /o"Debug/CDCStep3.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\CDCStep3.sbr" ".\Debug\CDCStep3Doc.sbr" ".\Debug\CDCStep3View.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CDCStep3D.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

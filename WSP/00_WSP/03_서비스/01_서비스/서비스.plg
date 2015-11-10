@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 서비스 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP66.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/서비스.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\01_서비스\01_문서.cpp"
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\01_서비스\02_문서.cpp"
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\01_서비스\03_문서.cpp"
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\01_서비스\04_문서.cpp"
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\01_서비스\05_문서.cpp"
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\01_서비스\06_문서.cpp"
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\01_서비스\07_문서.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP66.tmp" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP67.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/서비스.pdb" /debug /machine:I386 /out:"Debug/서비스.exe" /pdbtype:sept 
+".\Debug\01_문서.obj"
+".\Debug\02_문서.obj"
+".\Debug\03_문서.obj"
+".\Debug\04_문서.obj"
+".\Debug\05_문서.obj"
+".\Debug\06_문서.obj"
+".\Debug\07_문서.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSP67.tmp"
+<h3>Output Window</h3>
+Compiling...
+01_문서.cpp
+02_문서.cpp
+03_문서.cpp
+04_문서.cpp
+05_문서.cpp
+06_문서.cpp
+07_문서.cpp
+Linking...
+LIBCD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/서비스.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+Creating command line "bscmake.exe /nologo /o"Debug/서비스.bsc"  ".\Debug\01_문서.sbr" ".\Debug\02_문서.sbr" ".\Debug\03_문서.sbr" ".\Debug\04_문서.sbr" ".\Debug\05_문서.sbr" ".\Debug\06_문서.sbr" ".\Debug\07_문서.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+서비스.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

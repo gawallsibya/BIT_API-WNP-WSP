@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 콘솔 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\최창민\LOCALS~1\Temp\RSPBE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/콘솔.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\최창민\바탕 화면\00_Windows System Programming\2일차_파일 콘솔\02_콘솔\콘솔3.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\최창민\LOCALS~1\Temp\RSPBE.tmp"" 
+Creating temporary file "C:\DOCUME~1\최창민\LOCALS~1\Temp\RSPBF.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/콘솔.pdb" /debug /machine:I386 /out:"Debug/콘솔.exe" /pdbtype:sept 
+".\Debug\콘솔3.obj"
+]
+Creating command line "link.exe @"C:\DOCUME~1\최창민\LOCALS~1\Temp\RSPBF.tmp""
+<h3>Output Window</h3>
+Compiling...
+콘솔3.cpp
+c:\documents and settings\최창민\바탕 화면\00_windows system programming\2일차_파일 콘솔\02_콘솔\콘솔3.cpp(46) : warning C4101: 'fp' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/콘솔.bsc"  ".\Debug\콘솔3.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+콘솔.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

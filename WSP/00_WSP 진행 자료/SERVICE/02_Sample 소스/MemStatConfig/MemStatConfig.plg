@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MemStatConfig - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/MemStatConfig.res" /d "_DEBUG" "C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\02_Sample 소스\MemStatConfig\MemStatConfig.rc"" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPFC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/MemStatConfig.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\woosong bit\바탕 화면\고급\00_WSP\03_서비스\02_Sample 소스\MemStatConfig\MemStatConfig.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPFC.tmp" 
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPFD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/MemStatConfig.pdb" /debug /machine:I386 /out:"Debug/MemStatConfig.exe" /pdbtype:sept 
+".\Debug\MemStatConfig.obj"
+".\Debug\MemStatConfig.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPFD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+MemStatConfig.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/MemStatConfig.bsc"  ".\Debug\MemStatConfig.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPFF.bat" with contents
+[
+@echo off
+copy Debug\MemStatConfig.exe ..
+]
+Creating command line "C:\DOCUME~1\WOOSON~1\LOCALS~1\Temp\RSPFF.bat"
+
+        1개 파일이 복사되었습니다.
+
+
+
+<h3>Results</h3>
+MemStatConfig.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
